@@ -1,0 +1,41 @@
+.epilator{
+  &__title{
+    margin-bottom: 10px;
+  }
+  &__descr{
+    text-align: center;
+    background-color: #E7288F;
+    margin:0;
+    padding:10px 45px;
+    color:$white;
+    font:700 20px/24px var(--font); 
+  }
+  &__box{
+    margin-bottom: 50px;
+  }
+  &__product{
+    bottom: -5%;
+    left:25px;
+    width: 71px;
+  }
+  &__content{
+    margin-bottom: 42px;
+  }
+  &__text{
+    margin:0;
+    font:400 20px/26px var(--font);
+    color: $black;
+    &:not(:last-child){
+      margin-bottom: 20px;
+    }
+  }
+  &__present{
+    margin-bottom: 45px;
+  }
+}
+@media (max-width:360px) {
+  .epilator__descr {
+    padding: 10px 15px;
+    font: 700 18px/24px var(--font);
+}
+}

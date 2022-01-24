@@ -1,0 +1,46 @@
+.benefits{
+  &__title{
+    margin-bottom: 30px;
+  }
+  &__items{
+    margin-bottom: 30px;
+  }
+}
+.benefits-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &:not(:last-child){
+    margin-bottom: 30px;
+  }
+  &__box{
+    width: 164px;
+    height: 170px;
+    background-image: url('../images/dest/icons/benefits-decor.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__img{
+    width: 131px;
+    height: 131px;
+    transform: translate(3px, 2px);
+    border-radius: 100%;
+  }
+  &__content{
+    max-width: 400px;
+    margin:0;
+    text-align: center;
+    color: $white;
+    font:400 18px/21px var(--font);
+    strong{
+      display: block;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+  }
+}

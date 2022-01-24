@@ -1,0 +1,19 @@
+.footer{
+  background-color: #ffffff;
+  padding: 20px 0;
+  color: $black;
+  font-size: 14px;
+  line-height: 18px;
+ font-family: inherit;
+}
+.footer-text{
+  margin:0 0 5px;
+}
+.footer-link {
+  opacity: 0.8;
+  text-decoration: underline;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: inherit;
+  color: $black;
+}

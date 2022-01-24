@@ -1,0 +1,29 @@
+.mascara{
+  &__subtitle{
+    margin-bottom: 26px;
+    padding: 0 5px;
+  }
+  &__box{
+    margin-bottom: 50px;
+  }
+  &__product{
+    max-width: 125px;
+    bottom: -5%;
+    right: 24px;
+    filter: drop-shadow(12px -6px 12px rgba(0, 0, 0, .4));
+  }
+  &__content{
+    margin-bottom: 30px;
+  }
+  &__text{
+    margin: 0;
+    &:not(:last-child){
+      margin-bottom: 20px;
+    }
+  }
+}
+@media (max-width:390px) {
+  .mascara__product{
+    max-width: 120px;
+  }
+}

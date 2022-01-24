@@ -1,0 +1,30 @@
+.order{
+  &__title{
+    margin-bottom: 40px;
+  }
+}
+.order-list{
+  padding: 0 25px;
+  &__item{
+    &:not(:last-child){
+      margin-bottom: 25px;
+    }
+  }
+  &__icons{
+    flex-shrink: 0;
+    width:70px;
+    height:70px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-right: 20px;
+  }
+  &__stroke,&__icon{
+    grid-area: 1/1;
+  }
+  &__text{
+    font:400 20px/28px var(--font);
+    color:$black;
+    max-width: 290px;
+  }
+}
